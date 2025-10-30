@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio -Sameer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="site-header">
+        <div class="container header-inner">
+            <h1 class="logo">My Portfolio</h1>
+            <nav class="main-nav">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="container hero-inner">
+            <div class="hero-left">
+                <h2>Hello, I'm <span class="accent">-Sameer</span></h2>
+                <p> B.Tech CSE student who loves building simple and responsive websites using HTML, CSS, and basic JavaScript.</p>
+                <!-- <a href="#projects" class="btn primary"></a> -->
+            </div>
+            <div class="hero-right">
+                <img src="C:\Users\admin\OneDrive\Desktop\sameer.png" alt="sameer pic" height="200px" width="200px">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="card">
+                    <h3>Education</h3>
+                    <p>B.Tech - Computer Science (KR Mangalam University)</p>
+                </div>
+                <div class="card">
+                    <h3>Interests</h3>
+                    <p>Web Development, Python, Problem Solving</p>
+                </div>
+                <div class="card">
+                    <h3>Tools</h3>
+                    <p>VS Code, GitHub, Chrome DevTools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://i.ytimg.com/vi/Dtb3DdSvYRY/sddefault.jpg?v=6579c804"alt="Portfolio Project">
+                    <h3>Portfolio Website</h3>
+                    <p>A clean personal portfolio made with HTML and CSS.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://www.dezven.com/images/project/create-student-registration-form-in-html-with-css.webp" alt="Registration Form">
+                    <h3>Registration Form</h3>
+                    <p>A simple student registration form with validation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills & Tools</h2>
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                        <th>Tools / Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>Advanced</td>
+                        <td>Responsive Design, Flexbox, Grid</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Intermediate</td>
+                        <td>Basic Projects & Scripting</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Beginner</td>
+                        <td>DOM & Simple Interactions</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact / Registration</h2>
+            <form class="contact-form">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your full name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="name@example.com">
+                </div>
+                <div class="form-row">
+                    <label for="course">Course</label>
+                    <select id="course">
+                        <option>Select</option>
+                        <option>HTML & CSS</option>
+                        <option>Python</option>
+                        <option>JavaScript</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="3" placeholder="Write your message..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn primary">Submit</button>
+                    <button type="reset" class="btn ghost">Reset</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 -Sameer Built with ❤️ using HTML & CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>
